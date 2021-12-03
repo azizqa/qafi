@@ -2,7 +2,7 @@
   <img src="./Logo.png" style="width:auto;height:250px;"/>
 </p>
 <hr>
-A search engine for Arabian vernacular poetry rhymes. Useful tool for writing poetry fast and can be used for inspiration too.
+A search engine for Arabic vernacular poetry rhymes. Useful tool for writing poetry fast and can be used for inspiration too.
 
 > The data used in this project is scraped from adab.com.
 

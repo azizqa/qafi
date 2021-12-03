@@ -1,7 +1,10 @@
-# Qafi قافي
-A search engine for Arabian vernacular poetry rhymes.
+<p align="center">
+  <img src="./Logo.png" style="width:auto;height:250px;"/>
+</p>
+<hr>
+A search engine for Arabian vernacular poetry rhymes. Useful tool for writing poetry fast and can be used for inspiration too.
 
-> All of the data used in this project is scraped from adab.com
+> The data used in this project is scraped from adab.com.
 
 ## Live demo
 https://qafi.netlify.app/

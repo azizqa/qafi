@@ -6,4 +6,4 @@ A search engine for Arabian vernacular poetry rhymes.
 ## Live demo
 https://qafi.netlify.app/
 
-## This project is open for development and collaboration feel free to commit changes. Note this project was originally done in 2019
+This project is open for development and collaboration feel free to commit changes. Note this project was originally done in 2019

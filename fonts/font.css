@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Arabic UI Text';
+    src: url('ArabicUIText-Regular.woff2') format('woff2'),
+        url('ArabicUIText-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arabic UI Text';
+    src: url('ArabicUIText-Light.woff2') format('woff2'),
+        url('ArabicUIText-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arabic UI Display';
+    src: url('ArabicUIDisplay-Medium.woff2') format('woff2'),
+        url('ArabicUIDisplay-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arabic UI Display';
+    src: url('ArabicUIDisplay-Heavy.woff2') format('woff2'),
+        url('ArabicUIDisplay-Heavy.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arabic UI Display';
+    src: url('ArabicUIDisplay-Semibold.woff2') format('woff2'),
+        url('ArabicUIDisplay-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arabic UI Display';
+    src: url('ArabicUIDisplay-Thin.woff2') format('woff2'),
+        url('ArabicUIDisplay-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arabic UI Text';
+    src: url('ArabicUIText-Semibold.woff2') format('woff2'),
+        url('ArabicUIText-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arabic UI Display';
+    src: url('ArabicUIDisplay-Black.woff2') format('woff2'),
+        url('ArabicUIDisplay-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arabic UI Text';
+    src: url('ArabicUIText-Bold.woff2') format('woff2'),
+        url('ArabicUIText-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arabic UI Display';
+    src: url('ArabicUIDisplay-Bold.woff2') format('woff2'),
+        url('ArabicUIDisplay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arabic UI Text';
+    src: url('ArabicUIText-Heavy.woff2') format('woff2'),
+        url('ArabicUIText-Heavy.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arabic UI Text';
+    src: url('ArabicUIText-Medium.woff2') format('woff2'),
+        url('ArabicUIText-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arabic UI Display';
+    src: url('ArabicUIDisplay-Regular.woff2') format('woff2'),
+        url('ArabicUIDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arabic UI Display';
+    src: url('ArabicUIDisplay-Ultralight.woff2') format('woff2'),
+        url('ArabicUIDisplay-Ultralight.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arabic UI Display';
+    src: url('ArabicUIDisplay-Light.woff2') format('woff2'),
+        url('ArabicUIDisplay-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Qafi قافي</title>
+    <meta name="description" content="Qafi | بحث بكلمات تنتهي بنهاية معينة">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="rhymer.css" />
+    <link rel="stylesheet" href="fonts/font.css" />
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="jquery.color.min.js"></script>
+    <script type="text/javascript" src="jquery.animateNumber.min.js"></script>
+    <script type="text/javascript" src="levenshtein.js"></script>
+    <script type="text/javascript" src="rhymer.js"></script>
+</head>
+
+<body>
+    <div class="text-center" style="margin-bottom: 30px;">
+        <img src="Logo.png" style="width: 150px; height: auto;">
+    </div>
+
+    <div class="container">
+        <div class="jumbotron">
+            <p>القوافي التي تم سردها عددها يساوي <span id="target"
+                    style="font-size: 14px;font-weight: 300; color: red;">0</span> كلمة
+
+            </p>
+            <div id="sticky">
+                <div class="row">
+                    <div class="col">
+                        <div class="input-group mb-3">
+                            <input type="text" id="word" class="form-control"
+                                placeholder="ضع نهاية كلمة مثل: هي, ية, ردة" required autofocus>
+                            <div class="input-group-prepend">
+                                <select class="custom-select" style="height: 45px;text-align: right;" id="filter">
+                                    <option value="all" selected>جميع القوافي</option>
+                                    <option value="sh3r">سطر شعري</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <button class="btn btn-md btn-primary btn-block" id="search">أبحث الأن!</button>
+                    </div>
+                </div>
+                <div class="text-center" id="alert"></div>
+            </div>
+
+            <br>
+            <div class="row">
+                <div class="results">
+                    <h3>نتائج البحث</h3>
+                    <ol>
+                    </ol>
+                    <div class='share-button share-button-top'></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <button class="btn btn-md btn-dark rounded-circle m-2" style="width: 50px;height: 50px;" id="random" >
+            <img style="width: auto;height: 20px;" src="assets/dice.svg" />
+        </button>
+        <div class="w-100 d-block"></div>
+        <br><span id="version" class="text-success"></span>
+    </div>
+
+</body>
+
+</html>
